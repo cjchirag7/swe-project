@@ -110,6 +110,7 @@ if(isset($submitted))
 }
 ?>
 <script type="text/javascript">
+	/* Developed by dheeraj*/
 			function printDetails(){
 			$(this).hide();
 			var divToPrint=document.getElementById('details-print');
