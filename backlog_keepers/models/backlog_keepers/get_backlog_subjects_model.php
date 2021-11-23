@@ -17,7 +17,8 @@ function get_all_physical_registrations($params)
     $result=$this->db->query($sql,$queryParams);
     return $result->result();
 }
-    
+
+/* Developed by Roopchand*/
 function get_common_sem_subjects($params) {
     $queryParams = array();
     $sql='select * 
@@ -42,6 +43,8 @@ array_push($queryParams,$params->session);
     return $result->result();
 }
 
+    
+/* Developed by Sameer*/
 function get_other_sem_subjects($params) {
     $queryParams = array();
     $sql='select * 
