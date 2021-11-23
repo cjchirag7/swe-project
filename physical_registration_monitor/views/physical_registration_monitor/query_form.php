@@ -285,7 +285,7 @@ if(isset($submitted))
 				chart.draw(data, options);
 				var svg = $('svg', document.getElementById('summaryChartContainer'));
 			}
-			
+			/* Developed by roopchand*/
 			function printSummary(){
 			var divToPrint=document.getElementById('summary-print');
 			var newWin=window.open('','Print-Window');
